@@ -1,0 +1,38 @@
+/* fotn web */
+  
+  @import url("https://use.typekit.net/pyp2yyf.css");
+
+  @import url("https://use.typekit.net/pyp2yyf.css");
+
+
+
+
+/* variaveis */
+
+:root{
+    --cor-primeira: #064559;
+    --cor-segunda: #a6032f;
+    --cor-terceira:#FCFFE7;
+    --cor-quarta: #BAD7E9;
+    --cor-fundo: #031d25;
+
+    --titulo-normal: "nobel", sans-serif;
+    --paragrafo: "indivisible", sans-serif;
+}
+
+body{
+    background-color: var(--cor-fundo);
+}
+
+.banner{
+    background-image: url(/assets/AdobeStock_454125313.jpeg);
+
+}
+
+.conteiner{
+    height: 25vh;
+}
+
+.logo{
+    width: 10%;
+}

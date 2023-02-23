@@ -25,14 +25,96 @@ body{
 }
 
 .banner{
+    height: 100vh;
     background-image: url(/assets/AdobeStock_454125313.jpeg);
+    background-size:120% ;
+    background-repeat: no-repeat;
+    
+}
 
+.banner__cinteiners__botoes{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    justify-content: center;
+    padding: 5%;
+    box-sizing: border-box;
 }
 
 .conteiner{
-    height: 25vh;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap:10%;
+    
 }
 
 .logo{
-    width: 10%;
+    width: 40%;
+}
+
+.banner__botoes{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+
+    
+}
+
+.banner__botoes__botao{
+    background-color:var(--cor-segunda);
+    padding: 0.6rem 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: var(--cor-terceira);
+    font-family: var(--titulo-normal);
+    font-weight: 300;
+    font-size: 2rem;
+    
+}
+
+/* informações */
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    width: 100%;
+    height: 20vh;
+    margin: 5% 0 5% 0;
+}
+
+.info__conteudo {
+    width: 15%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info__imagem {
+    background-image: url(/assets/circle2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+.icon{
+    padding: 20%;
+    box-sizing: border-box;
+}
+
+.info__texto{
+    font-family: var(--titulo-normal);
+    color: var(--cor-terceira);
+    font-size: 2rem;
 }
